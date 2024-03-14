@@ -1,0 +1,152 @@
+info:
+    email: "nathan@ogden.tech"
+    phone: "850.322.5199"
+    website: "n.ogden.tech"
+
+sections:
+
+    -
+        title: Introduction
+        class: intro
+        content: |
+            I have been a professional developer since 2007 and have worked on a variety of projects. I have a passion for
+            writing code as cleanly and efficiently as possible and I'm always looking for new and interesting
+            problems to solve through code!
+
+    -
+        title: Skills
+        class: skills
+        content: |
+            *Experience with the following computer programming, scripting, and markup languages...*
+
+            - PHP
+            - Golang
+            - Python
+            - Javascript
+            - HTML/CSS
+
+            *Experience with the following tools, frameworks, services, libraries, etc...*
+
+            - Symfony
+            - MySQL & SQLite
+            - Nginx
+            - AWS S3, EC2, Lambda, RDS
+            - Docker & Kubernetes
+            - RabbitMQ
+            - Git
+            - React & Angular JS
+            - SOLR
+
+            *Other related skills...*
+            
+            - Linux operating systems
+            - REST APIs
+            - Network coding, TCP/UDP, Websockets	
+            - Game development with SDL2 (via C library)
+            - Payment processing w/ Authorize.net/Paypal/Stripe	
+
+    -
+        title: Experience
+        class: experience
+        content: |
+            ***Senior Software Engineer*** 2022-2024<br>
+            *JazzHR / Employ Inc, Remote*
+
+            - Helped implement feature usage limit auto upgrading to allow customers to seamlessly continue using application features without having to manually initiate an upgrade process.
+            - Helped build and ship a major feature, "Text2Apply", allowing applicants to fill out an application via SMS.
+            - Implemented in-app notification for when a customer received a SMS from a prospective hire.
+            - Worked on improving how the application handled SMS messaging.
+            - Wrote code that allowed the application to interface with multiple REST APIs.
+            - Helped setup database migrations through Liquibase and built fixtures to standup testing databases.
+            - Helped introduce integration, application, smoke, security, and E2E testing to the code base. Prior to this there were only unit tests.
+            - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
+            - Built AI based resume importer for hack-a-thon.
+
+            ***Software Engineer*** 2013-2022<br>
+            *Contextual Code, Tallahassee FL*
+
+            - Built and maintained sites created with the eZ Publish CMS (now called eZ Platform) with PHP and Symfony.
+            - Built tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See Platform.CC below).
+            - Researched and built hosting platform with Kubernetes.
+            - Worked on projects for the Modern Language Association, Harvard Business School, University of Pennsylvania, the Florida Department of Agriculture, Florida Courts, and more.
+
+            ***Software Engineer*** 2012-2013<br>
+            *Hubze, Tallahassee FL*
+
+            - Bug fixing legacy proprietary software (PHP4).
+            - Managed Wordpress blog, built custom themes and plugins.
+            - Used Python and WebSockets to create web application for accessing social media feeds from sites such as Facebook.
+            - Managed Linux web servers.
+    
+            ***Software Engineer*** 2010-2012<br>
+            *Droid Marketing, Tallahassee FL*
+
+            - Converted Photoshop designs into fully functional website.
+            - Created custom scripts for various web function including content management and shopping cart systems.
+            - Created content for Facebook including fan pages, apps, and like gates.
+
+            ***Freelance Developer*** 2007-Present
+            
+            - Converted Photoshop designs into custom Wordpress themes.
+            - Built custom sites with Wordpress and Django.
+            - Maintain sites and provide hosting.
+
+            ***Graphic/Web Design Intern*** 2007<br>
+            *Tallahassee Community College Information Technology Department, Tallahassee FL*
+
+            - Designed graphics used on the 'TCC student passport' system.
+
+            ***Computer Lab Assistant*** 2006-2008<br>
+            *Tallahassee Community College Graphic Design Department, Tallahassee FL*
+
+            - Assisted students with the operation of various Adobe software and Apple computers.
+    
+    -
+        title: Education
+        class: education
+        break_before: true
+        content: |
+            ***Tallahassee Community College*** 2006-2011<br>
+            Completed ~90% of requirements for Associate of Science in Video Game Development, Multimedia Technology, and Graphic Design degrees.
+
+    -
+        title: "Client Work Samples"
+        class: "client-work"
+        content: |
+            - ***OncoLife Survivorship Care Plan*** (PHP/Symfony/Javascript) *https://oncolife.oncolink.org*
+            - ***Modern Language Association*** (PHP/Symfony/Javascript) *https://www.mla.org*
+            - ***Florida Courts - Virtual Courts*** (PHP/Symfony/Javascript/React) *https://vc.flcourts.org*
+            - ***Tallahassee Film Society*** (Python/Django) *https://www.tallahasseefilms.com*
+
+    -
+        title: "Other Projects & Code Examples"
+        class: "other-projects"
+        content: |
+            
+            ***Platform.CC / PBrew*** (Golang[v2]/Python[v1])<br>
+            *https://github.com/chompy/platform_cc*
+
+            Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
+            Later PBrew was created, a tool that accomplished the same task but instead of Docker it used Homebrew to manage services. This helped drastically with performance on M1 Macs where Docker was extremely slow.
+            
+            ***Decision Engine / Logic Tree Engine*** (PHP/Symfony/Javascript/React/Lua)<br>
+            *[Source not available, but I can demo it upon request]*
+
+            System for building logic trees, both a form and a document tree. Uses a Lua rule engine to ask questions relevant to the user and display an output specific to the user.
+
+            ***FFLiveParse*** (Golang/C#/Javascript)<br>
+            *https://github.com/chompy/ffliveparse_server*<br>
+            *https://github.com/chompy/ffliveparse_act_plugin*<br>
+            
+            Web application for viewing game play statistics for the popular online video game, Final Fantasy XIV. At its peak usage the application on had 10-20 concurrent users, and processed about 200,000 log lines per hour.
+
+            ***CProxy & CProxy-Cache*** (Golang)<br>
+            *https://github.com/chompy/cproxy*<br>
+            *https://github.com/chompy/cproxy-cache*
+
+            HTTP/FastCGI proxy with a cache extension. The cache is meant as a very simple and lightweight substitute to Varnish and supports edge side includes (ESI).
+
+            ***Libchomp*** (C++)<br>
+            *https://github.com/chompy/libchomp*
+
+            A simple 2D game library utilizing SDL2. Created as a learning exercise to better familarize myself with C++, game development, and library creation. It is worth noting that a game built with this library was ported to Android.
