@@ -53,25 +53,24 @@ sections:
             ***Senior Software Engineer*** 2022-2024<br>
             *JazzHR / Employ Inc, Remote*
 
-            - Built new features and fixed bugs for application built with the Symfony PHP framework.
-            - Helped implement feature usage limit auto upgrading to allow customers to seamlessly continue using application features without having to manually initiate an upgrade process.
-            - Upgraded and optimized e-commerce related functionality. Updated legacy/deprecated SOAP API integration with new REST API integration.
-            - Helped build "Text2Apply" which allowed applicants to fill out an application via SMS.
+            - Built new features and fixed bugs for a Symfony based application.
+            - Implemented feature usage limit auto upgrading to allow customers to seamlessly continue using application features without having to manually initiate an upgrade process.
+            - Upgraded and optimized e-commerce related functionality. Updated legacy SOAP API integration with new REST API integration.
+            - Worked with a team to build "Text2Apply" which allowed applicants to fill out an application via SMS.
             - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from the 3rd party SMS service.
-            - Wrote code to interact with RESTful APIs.
-            - Helped setup database migrations through Liquibase and built fixtures to stand-up testing databases.
-            - Helped introduce integration, application, smoke, security, and E2E testing to the code base. Prior to this there were only unit tests.
+            - Setup database migrations through Liquibase and built fixtures to stand-up testing databases.
+            - Worked with team to implement better automated testing pratices. Expanded code base to support integration testing and allow for testing against a database.
             - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
-            - Built AI based resume importer for hack-a-thon.
+            - Engineered an AI based resume importer for a hack-a-thon.
 
             ***Software Engineer*** 2013-2022<br>
             *Contextual Code, Tallahassee FL*
 
-            - Built and maintained sites created with the eZ Platform CMS (previously called eZ Publish) with PHP and Symfony.
-            - Built tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See Platform.CC below).
+            - Built and maintained sites created with the eZ Platform CMS (previously called eZ Publish) with the Symfony framework.
+            - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See Platform.CC below).
             - Researched and built hosting platform with Kubernetes.
-            - Built a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See OncoLife Survivorship Care Plan below).
-            - Worked on projects for the Modern Language Association, Harvard Business School, University of Pennsylvania, the Florida Department of Agriculture, Florida Courts, and more.
+            - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See OncoLife Survivorship Care Plan below).
+            - Implemented a custom shopping cart and payment system utilizating the Authorize.net and PayPal APIs.
             
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
@@ -85,14 +84,14 @@ sections:
             *Droid Marketing, Tallahassee FL*
 
             - Converted Photoshop designs into fully functional website.
-            - Created custom scripts for various web function including content management and shopping cart systems.
+            - Built a simple content management system and e-commerce solution.
             - Created content for Facebook including fan pages, apps, and like gates.
 
             ***Freelance Developer*** 2007-Present
             
             - Converted Photoshop designs into custom Wordpress themes.
             - Built custom sites with Wordpress and Django.
-            - Maintain sites and provide hosting.
+            - Maintained sites and provided hosting.
 
             ***Graphic/Web Design Intern*** 2007<br>
             *Tallahassee Community College Information Technology Department, Tallahassee FL*
