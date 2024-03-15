@@ -139,7 +139,7 @@ sections:
             *https://github.com/chompy/ffliveparse_server*<br>
             *https://github.com/chompy/ffliveparse_act_plugin*<br>
             
-            Web application for viewing game play statistics for the popular online video game, Final Fantasy XIV. At its peak usage the application on had 10-20 concurrent users, and processed about 200,000 log lines per hour.
+            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV. At its peak usage the application on had 10-20 concurrent users, and processed about 200,000 log lines per hour.
 
             ***CProxy & CProxy-Cache*** (Golang)<br>
             *https://github.com/chompy/cproxy*<br>
