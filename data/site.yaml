@@ -59,7 +59,7 @@ sections:
             - Worked with a team to build "Text2Apply" which allowed applicants to fill out an application via SMS.
             - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from the 3rd party SMS service.
             - Setup database migrations through Liquibase and built fixtures to stand-up testing databases.
-            - Worked with team to implement better automated testing pratices. Expanded code base to support integration testing and allow for testing against a database.
+            - Worked with team to implement better automated testing practices. Expanded code base to support integration testing and allow for testing against a database.
             - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
             - Engineered an AI based resume importer for a hack-a-thon.
 
@@ -70,12 +70,12 @@ sections:
             - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See Platform.CC below).
             - Researched and built hosting platform with Kubernetes.
             - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See OncoLife Survivorship Care Plan below).
-            - Implemented a custom shopping cart and payment system utilizating the Authorize.net and PayPal APIs.
+            - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
             
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
 
-            - Bug fixing legacy proprietary software (PHP4).
+            - Fixed bugs in legacy proprietary software (PHP4).
             - Managed Wordpress blog, built custom themes and plugins.
             - Used Python and WebSockets to create web application for accessing social media feeds from sites such as Facebook.
             - Managed Linux web servers.
