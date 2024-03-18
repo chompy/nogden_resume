@@ -68,10 +68,11 @@ sections:
 
             - Built and maintained sites created with the eZ Platform CMS (previously called eZ Publish) with the Symfony framework.
             - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See *Platform.CC* below).
+            - Crafted a new tool related to the above mentioned Platform.CC called PBrew that allowed for more a more performant local development environment, particularly on M1 Macs where Docker was not very performant. PBrew did away with containerization and used Homebrew to install and manage services.
             - Researched and built hosting platform with Kubernetes.
-            - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See *OncoLife Survivorship Care Plan* below).
-            - Further expanded upon the above mentioned decision tree tool by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form. It also supported more complex rule logic with Lua scripting.
             - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
+            - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See *OncoLife Survivorship Care Plan* below).
+            - Further researched and expanded upon the above mentioned decision tree concept by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form. It also supported more complex rule logic with Lua scripting.
             
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
@@ -125,11 +126,11 @@ sections:
         class: "other-projects"
         content: |
             
-            ***Platform.CC / PBrew*** (Golang[v2]/Python[v1])<br>
+            ***Platform.CC*** (Golang[v2]/Python[v1])<br>
             *https://github.com/chompy/platform_cc*
 
             Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
-            Later PBrew was created, a tool that accomplished the same task but instead of Docker it used Homebrew to manage services. This helped drastically with performance on M1 Macs where Docker was extremely slow.
+            The original version was created with Python and it was later rebuilt with Golang.
             
             ***FFLiveParse*** (Golang/C#/Javascript)<br>
             *https://github.com/chompy/ffliveparse_server*<br>
@@ -143,6 +144,7 @@ sections:
 
             HTTP/FastCGI proxy with a cache extension. The cache is meant as a very simple and lightweight substitute to Varnish and supports edge side includes (ESI).
 
+            <br/><br/>
             ***Libchomp*** (C++)<br>
             *https://github.com/chompy/libchomp*
 
