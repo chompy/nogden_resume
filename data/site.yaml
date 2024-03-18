@@ -9,7 +9,7 @@ sections:
         title: Introduction
         class: intro
         content: |
-            I'm a veteran software engineer with over a decade of experience, skilled in PHP, Golang, and Python. 
+            I'm a veteran software engineer with over a decade of experience, skilled in PHP, Golang, Python, and Javascript. 
             I have a passion for writing code as cleanly and efficiently as possible and I'm always looking for new and interesting problems to solve through code!
 
     -
@@ -67,10 +67,10 @@ sections:
             *Contextual Code, Tallahassee FL*
 
             - Built and maintained sites created with the eZ Platform CMS (previously called eZ Publish) with the Symfony framework.
-            - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See Platform.CC below).
+            - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See *Platform.CC* below).
             - Researched and built hosting platform with Kubernetes.
-            - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See OncoLife Survivorship Care Plan below).
-            - Further expanded upon the above mentioned decision tree tool by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form.
+            - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See *OncoLife Survivorship Care Plan* below).
+            - Further expanded upon the above mentioned decision tree tool by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form. It also supported more complex rule logic with Lua scripting.
             - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
             
             ***Software Engineer*** 2012-2013<br>
@@ -107,7 +107,6 @@ sections:
     -
         title: Education
         class: education
-        break_before: true
         content: |
             ***Tallahassee Community College*** 2006-2011<br>
             Completed ~90% of requirements for Associate of Science in Video Game Development, Multimedia Technology, and Graphic Design degrees.
@@ -132,11 +131,6 @@ sections:
             Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
             Later PBrew was created, a tool that accomplished the same task but instead of Docker it used Homebrew to manage services. This helped drastically with performance on M1 Macs where Docker was extremely slow.
             
-            ***Decision Engine / Logic Tree Engine*** (PHP/Symfony/Javascript/React/Lua)<br>
-            *[Source not available, but I can demo it upon request]*
-
-            System for building logic trees, both a form and a document tree. Uses a Lua rule engine to ask questions relevant to the user and display an output specific to the user.
-
             ***FFLiveParse*** (Golang/C#/Javascript)<br>
             *https://github.com/chompy/ffliveparse_server*<br>
             *https://github.com/chompy/ffliveparse_act_plugin*<br>
