@@ -52,11 +52,12 @@ sections:
             ***Senior Software Engineer*** 2022-2024<br>
             *JazzHR / Employ Inc, Remote*
 
-            - Built new features and fixed bugs for a Symfony based application.
+            - Built new features and fixed bugs for a Symfony based application with an Angular and React front-end.
             - Implemented feature usage limit auto upgrading to allow customers to seamlessly continue using application features without having to manually initiate an upgrade process.
             - Upgraded and optimized e-commerce related functionality. Updated legacy SOAP API integration with new REST API integration.
-            - Worked with a team to build "Text2Apply" which allowed applicants to fill out an application via SMS.
+            - Worked with a team to build "Text2Apply" which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
             - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from the 3rd party SMS service.
+            - Enforced 10DLC compliance by informing the user of their 10DLC status prior to performing any SMS related operation. Implemented as a modal using React and tested with the Jasmine testing framework.
             - Setup database migrations through Liquibase and built fixtures to stand-up testing databases.
             - Worked with team to implement better automated testing practices. Expanded code base to support integration testing and allow for testing against a database.
             - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
@@ -69,6 +70,7 @@ sections:
             - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See Platform.CC below).
             - Researched and built hosting platform with Kubernetes.
             - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See OncoLife Survivorship Care Plan below).
+            - Further expanded upon the above mentioned decision tree tool by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form.
             - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
             
             ***Software Engineer*** 2012-2013<br>
