@@ -130,7 +130,7 @@ sections:
             *https://github.com/chompy/platform_cc*
 
             Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
-            The original version was created with Python and it was later rebuilt with Golang.
+            The original version was created with Python and was later rebuilt with Golang.
             
             ***FFLiveParse*** (Golang/C#/Javascript)<br>
             *https://github.com/chompy/ffliveparse_server*<br>
