@@ -16,7 +16,7 @@ sections:
         title: Skills
         class: skills
         content: |
-            *Experience with the following computer programming, scripting, and markup languages...*
+            *Skilled with the following computer programming, scripting, and markup languages...*
 
             - PHP
             - Golang
@@ -24,7 +24,7 @@ sections:
             - Javascript
             - HTML/CSS
 
-            *Experience with the following tools, frameworks, services, libraries, etc...*
+            *Skilled with the following tools, frameworks, services, libraries, etc...*
 
             - Symfony
             - MySQL & SQLite
@@ -105,13 +105,6 @@ sections:
 
             - Assisted students with the operation of various Adobe software and Apple computers.
     
-    -
-        title: Education
-        class: education
-        content: |
-            ***Tallahassee Community College*** 2006-2011<br>
-            Completed ~90% of requirements for Associate of Science in Video Game Development, Multimedia Technology, and Graphic Design degrees.
-
     -
         title: "Client Work Samples"
         class: "client-work"
