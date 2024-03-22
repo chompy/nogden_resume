@@ -72,7 +72,7 @@ sections:
             - Researched and built hosting platform with Kubernetes.
             - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
             - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See *OncoLife Survivorship Care Plan* below).
-            - Further researched and expanded upon the above mentioned decision tree concept by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form. It also supported more complex rule logic with Lua scripting.
+            - Further researched and expanded upon the above mentioned decision tree concept by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form. It also supported more complex rule logic with Lua.
             
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
@@ -129,7 +129,7 @@ sections:
             *https://github.com/chompy/ffliveparse_server*<br>
             *https://github.com/chompy/ffliveparse_act_plugin*<br>
             
-            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV. At its peak usage the application on had 10-20 concurrent users, and processed about 200,000 log lines per hour.
+            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV. At its peak usage the application had 10-20 concurrent users, and processed about 200,000 log lines per hour.
 
             ***CProxy & CProxy-Cache*** (Golang)<br>
             *https://github.com/chompy/cproxy*<br>
@@ -137,7 +137,6 @@ sections:
 
             HTTP/FastCGI proxy with a cache extension. The cache is meant as a very simple and lightweight substitute to Varnish and supports edge side includes (ESI).
 
-            <br/><br/>
             ***Libchomp*** (C++)<br>
             *https://github.com/chompy/libchomp*
 
