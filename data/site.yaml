@@ -49,6 +49,17 @@ sections:
         title: Experience
         class: experience
         content: |
+
+            ***AI Software Engineer*** 2024-<br>
+            *Contextual Code, Remote*
+
+            - Experimented with different large language models to learn the best applications for each one. Models such as Open AI GPT3 and 4, Llama 3, Claude Opus, and more.
+            - Learned about various vector databases (ChromaDB, Typesense, Pgvector, FAISS, and Pinecone) used to store text embeddings and perform similarity searches.
+            - Experimented with ways to convert various documents (DOCX, XLS, PDF, etc) to plain text and to split them in to chunks so that they could be fed in to a large language model while still maintaining important context.
+            - Built a RAG (Retrieval-Augmented Generation) for Florida Department of Management Services to assist in finding information contained in a collection of 10,000+ documents.
+            - Investigated ways to use a large language model to analyze and solve issues within a code base.
+            
+
             ***Senior Software Engineer*** 2022-2024<br>
             *JazzHR / Employ Inc, Remote*
 
