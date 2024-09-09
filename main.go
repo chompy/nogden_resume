@@ -3,14 +3,13 @@ package main
 import (
 	"bytes"
 	"encoding/base64"
+	"errors"
 	"fmt"
 	"html/template"
 	"image"
 	"image/jpeg"
-	_ "image/jpeg"
 	"image/png"
-	_ "image/png"
-	"io/ioutil"
+	"log"
 	"os"
 	"strings"
 
@@ -44,8 +43,14 @@ type Site struct {
 
 func main() {
 
+	if len(os.Args) < 2 {
+		log.Println(os.Args)
+		panic(errors.New("must include path to yaml"))
+	}
+	pathTo := os.Args[1]
+
 	// parse site.yaml
-	siteRaw, err := ioutil.ReadFile("data/site.yaml")
+	siteRaw, err := os.ReadFile(pathTo)
 	if err != nil {
 		panic(err)
 	}

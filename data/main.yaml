@@ -9,42 +9,39 @@ sections:
         title: Introduction
         class: intro
         content: |
-            I'm a veteran software engineer with over a decade of experience, skilled in PHP, Golang, Python, and Javascript. 
-            I have a passion for writing code as cleanly and efficiently as possible and I'm always looking for new and interesting problems to solve through code!
+            I'm a veteran software engineer with almost two decades of professional experience. I have a passion for solving problems through code and am always excited to learn new skills. I'm looking for opportunities that will allow me to focus on what I do best!
 
     -
         title: Skills
         class: skills
         content: |
-            *Skilled with the following computer programming, scripting, and markup languages...*
+            *Strong proficency with...*
 
-            - PHP
-            - Golang
+            - PHP (Symfony)
             - Python
-            - Javascript
+            - Golang
             - HTML/CSS
-
-            *Skilled with the following tools, frameworks, services, libraries, etc...*
-
-            - Symfony
-            - MySQL & SQLite
-            - Nginx
-            - AWS S3, EC2, Lambda, RDS
-            - Docker & Kubernetes
-            - RabbitMQ
-            - Git
-            - React & Angular JS
-            - SOLR
-            - Grafana & Prometheus
-
-            *Other related skills...*
+            - SQL Databases (MySQL, SQLite)
+            - API Integrations (REST, SOAP, GraphQL)
             
-            - Linux operating systems
-            - REST APIs
-            - Network coding, TCP/UDP, WebSockets
-            - Game development with SDL2 (via C library)
-            - Payment processing w/ Authorize.net/Paypal/Stripe
+            *Moderate proficency with...*
 
+            - JavaScript (React)
+            - Shell Script (Bash)
+            - Containerization (Docker, Kubernetes)
+            - HTTP Servers (Nginx, Apache HTTPD)
+            - AI/LLMs (OpenAI, llama.cpp, RAG)
+            
+            *Previous experience with...*
+
+            - Message Queuing (RabbitMQ, Kafka)
+            - Search Engines (Apache SOLR, TypeSense, Elasticsearch)
+            - Monitoring & Logging (Grafana, Prometheus)
+            - Amazon Web Services (S3, EC2, Lambda, RDS)
+            - Payment Processing (Authorize.net, PayPal, Stripe)
+            - NoSQL Databases (MongoDB)
+            - C/C++
+            
     -
         title: Experience
         class: experience
@@ -53,11 +50,11 @@ sections:
             ***AI Software Engineer*** 2024-<br>
             *Contextual Code, Remote*
 
-            - Experimented with different large language models to learn the best applications for each one. Models such as Open AI GPT3 and 4, Llama 3, Claude Opus, and more.
-            - Learned about various vector databases (ChromaDB, Typesense, Pgvector, FAISS, and Pinecone) used to store text embeddings and perform similarity searches.
+            - Investigated different large language models to learn the best applications for each one. Models such as Open AI GPT3/4/4o, Llama 3, Claude Opus, and more.
+            - Learned about various vector storage providers (ChromaDB, Typesense, Pgvector, FAISS, and Pinecone) used to store text embeddings and perform similarity searches.
             - Experimented with ways to convert various documents (DOCX, XLS, PDF, etc) to plain text and to split them in to chunks so that they could be fed in to a large language model while still maintaining important context.
-            - Built a RAG (Retrieval-Augmented Generation) for Florida Department of Management Services to assist in finding information contained in a collection of 10,000+ documents.
-            - Investigated ways to use a large language model to analyze and solve issues within a code base.
+            - Constructed a RAG (Retrieval-Augmented Generation) for Florida Department of Management Services to assist in finding information contained in a collection of 10,000+ documents.
+            - Examined different ways to use a large language model to analyze and solve issues within a code base.
             
 
             ***Senior Software Engineer*** 2022-2024<br>
@@ -66,29 +63,27 @@ sections:
             - Built new features and fixed bugs for a Symfony based application with an Angular and React front-end.
             - Implemented feature usage limit auto upgrading to allow customers to seamlessly continue using application features without having to manually initiate an upgrade process.
             - Upgraded and optimized e-commerce related functionality. Updated legacy SOAP API integration with new REST API integration.
-            - Worked with a team to build "Text2Apply" which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
-            - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from the 3rd party SMS service.
+            - Engaged with the "Text2Apply" team, a feature which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
+            - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from a 3rd party SMS service.
             - Enforced 10DLC compliance by informing the user of their 10DLC status prior to performing any SMS related operation. Implemented as a modal using React and tested with the Jasmine testing framework.
+            - Teamed up with another engineer to improve automated testing in the application. Expanded the code base to support integration testing and allow for testing against a database.
             - Setup database migrations through Liquibase and built fixtures to stand-up testing databases.
-            - Worked with team to implement better automated testing practices. Expanded code base to support integration testing and allow for testing against a database.
             - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
             - Engineered an AI based resume importer for a hack-a-thon.
 
             ***Software Engineer*** 2013-2022<br>
             *Contextual Code, Tallahassee FL*
 
-            - Built and maintained sites created with the eZ Platform CMS (previously called eZ Publish) with the Symfony framework.
-            - Engineered a tool with Golang and Docker to allow engineers to setup local development environments with one simple command. (See *Platform.CC* below).
-            - Crafted a new tool related to the above mentioned Platform.CC called PBrew that allowed for more a more performant local development environment, particularly on M1 Macs where Docker was not very performant. PBrew did away with containerization and used Homebrew to install and manage services.
-            - Researched and built hosting platform with Kubernetes.
+            - Built and maintained sites created with the Ibexa CMS with the Symfony framework.
+            - Contructed a tool with Golang and Docker that allowed engineers to setup local development environments with one simple command. (See *Platform.CC* below). Also created a more performant Dockerless version.
+            - Researched and developed hosting platform with Kubernetes.
             - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
-            - Engineered a complex form builder with PHP/Symfony/eZ Platform for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via the eZ Platform admin interface. (See *OncoLife Survivorship Care Plan* below).
-            - Further researched and expanded upon the above mentioned decision tree concept by building an application with Golang and React which allowed PDF files to be populated based on how a user filled out a form. It also supported more complex rule logic with Lua.
+            - Engineered a complex form builder with PHP/Symfony/Ibexa for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via a CMS backend. (See *OncoLife Survivorship Care Plan* below). This tool was further expirmented and expanded upon with new features such as PDF form filling and complex rule logic via Lua scripts.
             
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
 
-            - Fixed bugs in legacy proprietary software (PHP4).
+            - Fixed challenging bugs in legacy proprietary software (PHP4).
             - Managed Wordpress blog, built custom themes and plugins.
             - Used Python and WebSockets to create web application for accessing social media feeds from sites such as Facebook.
             - Managed Linux web servers.
@@ -120,9 +115,9 @@ sections:
         title: "Client Work Samples"
         class: "client-work"
         content: |
-            - ***OncoLife Survivorship Care Plan*** (PHP/Symfony/Javascript) *https://oncolife.oncolink.org*
-            - ***Modern Language Association*** (PHP/Symfony/Javascript) *https://www.mla.org*
-            - ***Florida Courts - Virtual Courts*** (PHP/Symfony/Javascript/React) *https://vc.flcourts.org*
+            - ***OncoLife Survivorship Care Plan*** (PHP/Symfony/JavaScript) *https://oncolife.oncolink.org*
+            - ***Modern Language Association*** (PHP/Symfony/JavaScript) *https://www.mla.org*
+            - ***Florida Courts - Virtual Courts*** (PHP/Symfony/JavaScript/React) *https://vc.flcourts.org*
             - ***Tallahassee Film Society*** (Python/Django) *https://www.tallahasseefilms.com*
 
     -
@@ -130,13 +125,13 @@ sections:
         class: "other-projects"
         content: |
             
-            ***Platform.CC*** (Golang[v2]/Python[v1])<br>
+            ***Platform.CC*** (Golang)<br>
             *https://github.com/chompy/platform_cc*
 
             Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
             The original version was created with Python and was later rebuilt with Golang.
             
-            ***FFLiveParse*** (Golang/C#/Javascript)<br>
+            ***FFLiveParse*** (Golang/C#/JavaScript)<br>
             *https://github.com/chompy/ffliveparse_server*<br>
             *https://github.com/chompy/ffliveparse_act_plugin*<br>
             
