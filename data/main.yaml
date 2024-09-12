@@ -21,12 +21,12 @@ sections:
             - Python
             - Golang
             - HTML/CSS
+            - JavaScript (React)
             - SQL Databases (MySQL, SQLite)
-            - API Integrations (REST, SOAP, GraphQL)
+            - API Integrations (REST, GraphQL)
             
             *Moderate proficency with...*
 
-            - JavaScript (React)
             - Shell Script (Bash)
             - Containerization (Docker, Kubernetes)
             - HTTP Servers (Nginx, Apache HTTPD)
@@ -50,35 +50,33 @@ sections:
             ***AI Software Engineer*** 2024-<br>
             *Contextual Code, Remote*
 
-            - Investigated different large language models to learn the best applications for each one. Models such as Open AI GPT3/4/4o, Llama 3, Claude Opus, and more.
-            - Learned about various vector storage providers (ChromaDB, Typesense, Pgvector, FAISS, and Pinecone) used to store text embeddings and perform similarity searches.
-            - Experimented with ways to convert various documents (DOCX, XLS, PDF, etc) to plain text and to split them in to chunks so that they could be fed in to a large language model while still maintaining important context.
-            - Constructed a RAG (Retrieval-Augmented Generation) for Florida Department of Management Services to assist in finding information contained in a collection of 10,000+ documents.
-            - Examined different ways to use a large language model to analyze and solve issues within a code base.
+            - Investigated different large language models to learn the best applications for each one. Models such as Open AI GPT 4, Llama 3, Claude Opus, and more.
+            - Learned about various vector storage providers (Pinecone, Typesense, FAISS, etc) used to store text embeddings and perform similarity searches.
+            - Experimented with ways to chunk various types of documents (DOCX, XLS, PDF, etc) for use with Retrieval-Augmented Generation.
+            - Constructed a RAG to assist in finding information contained in a collection of 10,000+ contracts and financial documents.
+            - Examined different ways to use a large language model to analyze and solve issues within a code base and built an AI reporting tool based on my findings.
             
-
             ***Senior Software Engineer*** 2022-2024<br>
             *JazzHR / Employ Inc, Remote*
 
             - Built new features and fixed bugs for a Symfony based application with an Angular and React front-end.
-            - Implemented feature usage limit auto upgrading to allow customers to seamlessly continue using application features without having to manually initiate an upgrade process.
+            - Implemented auto upgrading to feature usage limits which allowed customers to continue using the application without any interuptions.
             - Upgraded and optimized e-commerce related functionality. Updated legacy SOAP API integration with new REST API integration.
-            - Engaged with the "Text2Apply" team, a feature which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
+            - Assisted with the "Text2Apply" project, a feature which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
             - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from a 3rd party SMS service.
             - Enforced 10DLC compliance by informing the user of their 10DLC status prior to performing any SMS related operation. Implemented as a modal using React and tested with the Jasmine testing framework.
-            - Teamed up with another engineer to improve automated testing in the application. Expanded the code base to support integration testing and allow for testing against a database.
-            - Setup database migrations through Liquibase and built fixtures to stand-up testing databases.
+            - Expanded automatic testing in the application with integration, smoke, and security tests. Stood up a testing database with Liquibase for use with integration tests.
             - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
             - Engineered an AI based resume importer for a hack-a-thon.
 
             ***Software Engineer*** 2013-2022<br>
             *Contextual Code, Tallahassee FL*
 
-            - Built and maintained sites created with the Ibexa CMS with the Symfony framework.
-            - Contructed a tool with Golang and Docker that allowed engineers to setup local development environments with one simple command. (See *Platform.CC* below). Also created a more performant Dockerless version.
-            - Researched and developed hosting platform with Kubernetes.
+            - Built and maintained web applications with the Symfony framework.
+            - Constructed a tool with Golang and Docker that allowed engineers to setup local development environments with one simple command. (See *Platform.CC* below). Also created a more performant Dockerless version.
+            - Researched and developed a hosting platform with Kubernetes.
             - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
-            - Engineered a complex form builder with PHP/Symfony/Ibexa for traversing decision trees. This allowed users to fill out a form and get questions tailored to them based on how they answered previous questions. Everything was configurable via a CMS backend. (See *OncoLife Survivorship Care Plan* below). This tool was further expirmented and expanded upon with new features such as PDF form filling and complex rule logic via Lua scripts.
+            - Constructed a form builder that utilized a decision tree to determine what questions and content the end user should receive. The form and tree logic was was configurable via a CMS backend. (See *OncoLife Survivorship Care Plan* below). This tool was further experimented and expanded upon with new features such as PDF form filling and complex rule logic via Lua scripts.
             
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
@@ -91,11 +89,11 @@ sections:
             ***Software Engineer*** 2010-2012<br>
             *Droid Marketing, Tallahassee FL*
 
-            - Converted Photoshop designs into fully functional website.
+            - Converted Photoshop designs into fully functional websites.
             - Built a simple content management system and e-commerce solution.
             - Created content for Facebook including fan pages, apps, and like gates.
 
-            ***Freelance Developer*** 2007-Present
+            ***Freelance Engineer*** 2007-Present
             
             - Converted Photoshop designs into custom Wordpress themes.
             - Built custom sites with Wordpress and Django.
@@ -124,7 +122,7 @@ sections:
         title: "Other Projects & Code Examples"
         class: "other-projects"
         content: |
-            
+
             ***Platform.CC*** (Golang)<br>
             *https://github.com/chompy/platform_cc*
 

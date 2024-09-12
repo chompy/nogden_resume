@@ -1,0 +1,99 @@
+info:
+    email: "nathan@ogden.tech"
+    phone: "850.322.5199"
+    website: "n.ogden.tech"
+
+sections:
+
+    -
+        title: Introduction
+        class: intro
+        content: |
+            I'm a veteran software engineer with almost two decades of professional experience. I have a passion for solving problems through code and am always excited to learn new skills. I'm looking for opportunities that will allow me to focus on what I do best!
+
+    -
+        title: Skills
+        class: skills
+        content: |
+            *Strong proficency with...*
+
+            - PHP (Symfony)
+            - Python
+            - Golang
+            - HTML/CSS
+            - JavaScript (React)
+            - SQL Databases (MySQL, SQLite)
+            - API Integrations (REST, GraphQL)
+            
+            *Moderate proficency with...*
+            
+            - Containerization (Docker, Kubernetes)
+            - AI/LLMs (OpenAI, llama.cpp, RAG)
+            
+    -
+        title: Experience
+        class: experience
+        content: |
+
+            ***AI Software Engineer*** 2024-<br>
+            *Contextual Code, Remote*
+
+            - Investigated different large language models to learn the best applications for each one. Models such as Open AI GPT 4, Llama 3, Claude Opus, and more.
+            - Learned about various vector storage providers (PineconeDB, Typesense, etc) used to store text embeddings and perform similarity searches.
+            - Experimented with ways to chunk various types of documents for use with Retrieval-Augmented Generation. Which was used to construct a RAG to aid in finding relevant information in a collection of 10,000+ contract and finanical documents.
+            - Examined different ways to use a large language model to analyze and solve issues within a code base.
+
+            ***Senior Software Engineer*** 2022-2024<br>
+            *JazzHR / Employ Inc, Remote*
+
+            - Upgraded and optimized e-commerce related functionality. Implemented auto upgrading to feature usage limits and updated legacy SOAP API integration with new REST API integration.
+            - Assisted with the "Text2Apply" project, a feature which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
+            - Implemented an in-app notification to notify customers when they received a SMS from a prospective hire, this was triggered off a 3rd party webhook.
+            - Expanded automatic testing in the application with integration, smoke, and security tests. Stood up a testing database with Liquibase for use with integration tests.
+
+            ***Software Engineer*** 2013-2022<br>
+            *Contextual Code, Tallahassee FL*
+
+            - Built and maintained web applications with the Symfony framework.
+            - Engineered a tool with Golang and Docker to setup local development environments. (See *Platform.CC* below). Also created a more performant Dockerless version.
+            - Researched and developed a hosting platform with Kubernetes.
+            - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
+            - Constructed a form builder that utilized a decision tree to determine what questions and content the end user should receive. It was all configurable via a CMS backend. (See *OncoLife Survivorship Care Plan* below).
+            
+            ***Software Engineer*** 2012-2013<br>
+            *Hubze, Tallahassee FL*
+
+            - Fixed bugs in legacy proprietary software.
+            - Managed Wordpress blog, built custom themes and plugins.
+            - Used Python to create web application for accessing social media feeds.
+            - Managed Linux web servers.
+    
+            ***Freelance Engineer*** 2007-Present
+            
+            - Converted Photoshop designs into custom Wordpress themes.
+            - Built custom sites with Wordpress and Django.
+            - Maintained sites and provided hosting.
+    
+    -
+        title: "Client Work Samples"
+        class: "client-work"
+        content: |
+            - ***OncoLife Survivorship Care Plan*** (PHP/Symfony/JavaScript) *https://oncolife.oncolink.org*
+            - ***Florida Courts - Virtual Courts*** (PHP/Symfony/JavaScript/React) *https://vc.flcourts.org*
+            - ***Tallahassee Film Society*** (Python/Django) *https://www.tallahasseefilms.com*
+
+    -
+        title: "Other Projects & Code Examples"
+        class: "other-projects"
+        content: |
+
+            ***Platform.CC*** (Golang)<br>
+            *https://github.com/chompy/platform_cc*
+
+            Application for provisioning apps locally with Docker based on Platform.sh's spec.
+            
+            ***FFLiveParse*** (Golang/C#/JavaScript)<br>
+            *https://github.com/chompy/ffliveparse_server*<br>
+            *https://github.com/chompy/ffliveparse_act_plugin*<br>
+            
+            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV.

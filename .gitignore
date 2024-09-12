@@ -1,3 +1,6 @@
 *.html
 *.pdf
 *.code-workspace
+/out/
+*.sh
+!build.sh
