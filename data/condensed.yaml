@@ -87,13 +87,13 @@ sections:
         class: "other-projects"
         content: |
 
+            **AI Reporting Librar** (Python)<br>
+            *https://github.com/chompy/ai_reporter*
+
+            (WIP) Python Library for generating reports with AI (GPT4) based on information collected from code bases and/or a web browser controlled by AI via Selenium. 
+
             ***Platform.CC*** (Golang)<br>
             *https://github.com/chompy/platform_cc*
 
             Application for provisioning apps locally with Docker based on Platform.sh's spec.
-            
-            ***FFLiveParse*** (Golang/C#/JavaScript)<br>
-            *https://github.com/chompy/ffliveparse_server*<br>
-            *https://github.com/chompy/ffliveparse_act_plugin*<br>
-            
-            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV.
+        

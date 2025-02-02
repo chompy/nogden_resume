@@ -37,7 +37,7 @@ sections:
             - Message Queuing (RabbitMQ, Kafka)
             - Search Engines (Apache SOLR, TypeSense, Elasticsearch)
             - Monitoring & Logging (Grafana, Prometheus)
-            - Amazon Web Services (S3, EC2, Lambda, RDS)
+            - Amazon Web Services (S3, EC2, Lambda, RDS, ECS)
             - Payment Processing (Authorize.net, PayPal, Stripe)
             - NoSQL Databases (MongoDB)
             - C/C++
@@ -47,20 +47,31 @@ sections:
         class: experience
         content: |
 
-            ***AI Software Engineer*** 2024-<br>
+            ***AI Software Engineer (Contract)*** 2024-Present<br>
+            *Slides, Inc*
+
+            - Took ownership of, refactored, and maintained microservices in Python and NodeJS to help process data going in and out of a LLM.
+            - Researched and learned the ins and outs of the PowerPoint PPTX file format to be able to generate and modify them programatically.
+            - Manage infrastructure for microservices on AWS using ECS, used IAM roles and policies to enhance security.
+            - Provided bug fixes and new features for NextJS application.
+            - Advised team on best LLM practices, lead effort to shift from using a LLM to generate Markdown output to structured JSON using a schema to enforce output and reduce errors.
+            
+
+            ***AI Software Engineer (Contract)*** 2024<br>
             *Contextual Code, Remote*
 
             - Investigated different large language models to learn the best applications for each one. Models such as Open AI GPT 4, Llama 3, Claude Opus, and more.
-            - Learned about various vector storage providers (Pinecone, Typesense, FAISS, etc) used to store text embeddings and perform similarity searches.
+            - Researched various vector storage providers (Pinecone, Typesense, FAISS, etc) used to store text embeddings and perform similarity searches.
             - Experimented with ways to chunk various types of documents (DOCX, XLS, PDF, etc) for use with Retrieval-Augmented Generation.
             - Constructed a RAG to assist in finding information contained in a collection of 10,000+ contracts and financial documents.
-            - Examined different ways to use a large language model to analyze and solve issues within a code base and built an AI reporting tool based on my findings.
+            - Examined different ways to use a large language model to analyze and solve issues within a code base and built an AI reporting tool based on the findings.
+            - Exposed AI functionality to other applications via a REST API created using FastAPI. 
             
             ***Senior Software Engineer*** 2022-2024<br>
             *JazzHR / Employ Inc, Remote*
 
             - Built new features and fixed bugs for a Symfony based application with an Angular and React front-end.
-            - Implemented auto upgrading to feature usage limits which allowed customers to continue using the application without any interuptions.
+            - Implemented auto upgrading to feature usage limits which allowed customers to continue using the application without any interruptions.
             - Upgraded and optimized e-commerce related functionality. Updated legacy SOAP API integration with new REST API integration.
             - Assisted with the "Text2Apply" project, a feature which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
             - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from a 3rd party SMS service.
@@ -123,17 +134,21 @@ sections:
         class: "other-projects"
         content: |
 
+            **AI Reporting Library (Python)<br>**
+            *https://github.com/chompy/ai_reporter*
+
+            (WIP) Python Library for generating reports with AI (GPT4) based on information collected from code bases and/or a web browser controlled by AI via Selenium. 
+
             ***Platform.CC*** (Golang)<br>
             *https://github.com/chompy/platform_cc*
 
             Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
-            The original version was created with Python and was later rebuilt with Golang.
             
             ***FFLiveParse*** (Golang/C#/JavaScript)<br>
             *https://github.com/chompy/ffliveparse_server*<br>
             *https://github.com/chompy/ffliveparse_act_plugin*<br>
             
-            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV. At its peak usage the application had 10-20 concurrent users, and processed about 200,000 log lines per hour.
+            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV.
 
             ***CProxy & CProxy-Cache*** (Golang)<br>
             *https://github.com/chompy/cproxy*<br>
@@ -144,4 +159,4 @@ sections:
             ***Libchomp*** (C++)<br>
             *https://github.com/chompy/libchomp*
 
-            A simple 2D game library utilizing SDL2. Created as a learning exercise to better familarize myself with C++, game development, and library creation. It is worth noting that a game built with this library was ported to Android.
+            A simple 2D game library utilizing SDL2. Created as a learning exercise to better familarize myself with C++, game development, and library creation.
