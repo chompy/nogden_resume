@@ -20,17 +20,15 @@ sections:
             - PHP (Symfony)
             - Python
             - Golang
-            - HTML/CSS
-            - JavaScript (React)
-            - SQL Databases (MySQL, SQLite)
+            - JavaScript/TypeScript (React, NextJS)
             - API Integrations (REST, GraphQL)
+            - AI/LLMs Intergrations (OpenAI, Anthrophic, Local AI, RAG)
             
             *Moderate proficency with...*
 
+            - SQL Databases (MySQL, SQLite)
             - Shell Script (Bash)
             - Containerization (Docker, Kubernetes)
-            - HTTP Servers (Nginx, Apache HTTPD)
-            - AI/LLMs (OpenAI, llama.cpp, RAG)
             
             *Previous experience with...*
 
@@ -47,48 +45,51 @@ sections:
         class: experience
         content: |
 
-            ***AI Software Engineer (Contract)*** 2024-Present<br>
-            *Slides, Inc*
+            ***AI Software Engineer (Contract)*** 2024-2026<br>
+            *Duarte, Remote*
 
-            - Took ownership of, refactored, and maintained microservices in Python and NodeJS to help process data going in and out of a LLM.
-            - Researched and learned the ins and outs of the PowerPoint PPTX file format to be able to generate and modify them programatically.
-            - Manage infrastructure for microservices on AWS using ECS, used IAM roles and policies to enhance security.
-            - Provided bug fixes and new features for NextJS application.
-            - Advised team on best LLM practices, lead effort to shift from using a LLM to generate Markdown output to structured JSON using a schema to enforce output and reduce errors.
+            - Took ownership of microservices writen in Python and NodeJS, refactoring and maintaining them to optimize data processing for an LLM.
+            - Conducted in-depth research on the PowerPoint PPTX file format to enable programmatic generation and modification of presentations.
+            - Managed AWS infrastructure for microservices using ECS, leveraging IAM roles and policies to strengthen security.
+            - Delivered bug fixes and new features for a NextJS application.
+            - Advised the team on best practices for LLM integration, leading the implementation of JSON schemas to enforce structured outputs and minimize errors.
             
 
             ***AI Software Engineer (Contract)*** 2024<br>
             *Contextual Code, Remote*
 
-            - Investigated different large language models to learn the best applications for each one. Models such as Open AI GPT 4, Llama 3, Claude Opus, and more.
-            - Researched various vector storage providers (Pinecone, Typesense, FAISS, etc) used to store text embeddings and perform similarity searches.
-            - Experimented with ways to chunk various types of documents (DOCX, XLS, PDF, etc) for use with Retrieval-Augmented Generation.
-            - Constructed a RAG to assist in finding information contained in a collection of 10,000+ contracts and financial documents.
-            - Examined different ways to use a large language model to analyze and solve issues within a code base and built an AI reporting tool based on the findings.
-            - Exposed AI functionality to other applications via a REST API created using FastAPI. 
+            - Evaluated various large language models—including OpenAI GPT-4, Llama 3, and Claude Opus—to identify optimal use cases for each.
+            - Assessed multiple vector storage providers (Pinecone, TypeSense, FAISS, etc.) for storing text embeddings and performing similarity searches.
+            - Experimented with document chunking strategies for diverse file formats (DOCX, XLS, PDF, etc.) to support Retrieval-Augmented Generation workflows.
+            - Developed a RAG system to facilitate information retrieval from a corpus of over 10,000 contracts and financial documents.
+            - Analyzed methods for leveraging large language models to diagnose and resolve issues within codebases, culminating in the creation of an AI-powered reporting tool.
+            - Exposed AI capabilities to external applications through a FastAPI-based REST API.
+            
             
             ***Senior Software Engineer*** 2022-2024<br>
             *JazzHR / Employ Inc, Remote*
 
-            - Built new features and fixed bugs for a Symfony based application with an Angular and React front-end.
-            - Implemented auto upgrading to feature usage limits which allowed customers to continue using the application without any interruptions.
-            - Upgraded and optimized e-commerce related functionality. Updated legacy SOAP API integration with new REST API integration.
-            - Assisted with the "Text2Apply" project, a feature which allowed applicants to fill out an application via SMS. I was responsible for building a REST API client to integrate with a 3rd party SMS provider as well as extending front-end UI components with React.
-            - Implemented in-app notification to notify customers when they received a SMS from a prospective hire. This was implemented via a webhook from a 3rd party SMS service.
-            - Enforced 10DLC compliance by informing the user of their 10DLC status prior to performing any SMS related operation. Implemented as a modal using React and tested with the Jasmine testing framework.
-            - Expanded automatic testing in the application with integration, smoke, and security tests. Stood up a testing database with Liquibase for use with integration tests.
-            - Worked both solo and as part of a team. Regularly paired with other engineers to solve difficult problems.
-            - Engineered an AI based resume importer for a hack-a-thon.
+            - Developed and maintained features for a Symfony-based application with Angular and React frontends.
+            - Implemented automatic feature usage limit upgrades, ensuring uninterrupted service for customers.
+            - Modernized e-commerce functionality by migrating legacy SOAP integrations to a new REST API.
+            - Contributed to the "Text2Apply" project, enabling SMS-based job applications by building a REST API client for third-party SMS integration and extending frontend components with React.
+            - Delivered in-app notifications for incoming SMS messages from prospective hires via webhooks from a third-party SMS provider.
+            - Enforced 10DLC compliance by displaying user compliance status before SMS operations, implemented as a React modal and tested with Jasmine.
+            - Expanded automated testing coverage with integration, smoke, and security tests, and provisioned a Liquibase-managed test database.
+            - Collaborated effectively both independently and within teams, regularly pairing with peers to resolve complex technical challenges.
+            - Engineered an AI-driven resume importer during a company hackathon.
+
 
             ***Software Engineer*** 2013-2022<br>
             *Contextual Code, Tallahassee FL*
 
-            - Built and maintained web applications with the Symfony framework.
-            - Constructed a tool with Golang and Docker that allowed engineers to setup local development environments with one simple command. (See *Platform.CC* below). Also created a more performant Dockerless version.
-            - Researched and developed a hosting platform with Kubernetes.
-            - Implemented a custom shopping cart and payment system utilizing the Authorize.net and PayPal APIs.
-            - Constructed a form builder that utilized a decision tree to determine what questions and content the end user should receive. The form and tree logic was was configurable via a CMS backend. (See *OncoLife Survivorship Care Plan* below). This tool was further experimented and expanded upon with new features such as PDF form filling and complex rule logic via Lua scripts.
+            - Developed and maintained web applications using the Symfony framework.
+            - Engineered a tool with Golang and Docker that enabled engineers to configure local development environments with a single command (see *Platform.CC* below). Additionally, created a more performant version without Docker.
+            - Researched and developed a hosting platform utilizing Kubernetes.
+            - Implemented a custom shopping cart and payment system leveraging the Authorize.net and PayPal APIs.
+            - Developed a dynamic form builder employing a decision tree to tailor questions and content for end users. The form and tree logic were configurable through a CMS backend (see *OncoLife Survivorship Care Plan* below). Further expanded the tool with features such as PDF form filling and complex rule logic via Lua scripts.
             
+
             ***Software Engineer*** 2012-2013<br>
             *Hubze, Tallahassee FL*
 
@@ -97,6 +98,7 @@ sections:
             - Used Python and WebSockets to create web application for accessing social media feeds from sites such as Facebook.
             - Managed Linux web servers.
     
+
             ***Software Engineer*** 2010-2012<br>
             *Droid Marketing, Tallahassee FL*
 
@@ -104,16 +106,19 @@ sections:
             - Built a simple content management system and e-commerce solution.
             - Created content for Facebook including fan pages, apps, and like gates.
 
+
             ***Freelance Engineer*** 2007-Present
             
             - Converted Photoshop designs into custom Wordpress themes.
             - Built custom sites with Wordpress and Django.
             - Maintained sites and provided hosting.
 
+
             ***Graphic/Web Design Intern*** 2007<br>
             *Tallahassee Community College Information Technology Department, Tallahassee FL*
 
             - Designed graphics used on the 'TCC student passport' system.
+
 
             ***Computer Lab Assistant*** 2006-2008<br>
             *Tallahassee Community College Graphic Design Department, Tallahassee FL*
@@ -133,30 +138,39 @@ sections:
         title: "Other Projects & Code Examples"
         class: "other-projects"
         content: |
+            **Discord Soundboard (Golang / TypeScript)<br>**
+            *https://github.com/chompy/discord_soundboard*
+
+            A Discord bot featuring a web interface that enables users to upload and play audio clips within their server. 
+            Designed as an enhanced alternative to Discord’s built-in soundboard, created for use among peers.
+
+            
+            **Final Fantasy XIV Strategy Board Viewer (Golang)<br/>**
+            https://github.com/chompy/ffxiv_strat_board_viewer
+
+            A CLI tool and library for parsing and rendering strategy boards from Final Fantasy XIV. Live demo available at: https://go14.lol/b/4
+
 
             **AI Reporting Library (Python)<br>**
             *https://github.com/chompy/ai_reporter*
 
-            (WIP) Python Library for generating reports with AI (GPT4) based on information collected from code bases and/or a web browser controlled by AI via Selenium. 
+            A Python library for generating AI-driven reports using GPT-4, leveraging information collected from codebases or web browsers automated via Selenium.
+
 
             ***Platform.CC*** (Golang)<br>
             *https://github.com/chompy/platform_cc*
 
-            Application for provisioning apps with Docker based on Platform.sh's spec. Meant as a tool to be used for local development.
+            A tool for provisioning applications with Docker based on Platform.sh specifications. Developed to streamline local development environments.
             
+
             ***FFLiveParse*** (Golang/C#/JavaScript)<br>
             *https://github.com/chompy/ffliveparse_server*<br>
             *https://github.com/chompy/ffliveparse_act_plugin*<br>
             
-            Web application for viewing real-time game play statistics for the popular online video game, Final Fantasy XIV.
+            A web application that displays real-time gameplay statistics for the popular online game Final Fantasy XIV.
 
-            ***CProxy & CProxy-Cache*** (Golang)<br>
-            *https://github.com/chompy/cproxy*<br>
-            *https://github.com/chompy/cproxy-cache*
-
-            HTTP/FastCGI proxy with a cache extension. The cache is meant as a very simple and lightweight substitute to Varnish and supports edge side includes (ESI).
 
             ***Libchomp*** (C++)<br>
             *https://github.com/chompy/libchomp*
 
-            A simple 2D game library utilizing SDL2. Created as a learning exercise to better familarize myself with C++, game development, and library creation.
+            A lightweight 2D game library built with SDL2. Created as a learning exercise to deepen familiarity with C++, game development, and library architecture.
